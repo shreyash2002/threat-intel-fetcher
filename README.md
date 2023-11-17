@@ -27,7 +27,8 @@ This Python script fetches threat intelligence data from specified URLs, filters
 Install required packages using:
 
    ```bash
-   pip install -r requirements.txt
+   pip install -r requirements.txt 
+   ```
 
 ## Usage
 
@@ -36,17 +37,17 @@ Install required packages using:
    ```bash
    git clone https://github.com/shreyash2002/threat-intel-fetcher.git
    cd threat-intel-fetcher
-
+   ```
 2. Install dependencies
 
    ```bash 
    pip install -r requirements.txt
-
+   ```
 3. Run the script with predefined threat feed URLs
 
    ```bash 
    python threat_intel_fetch.py 
-
+   ```
    Edit the predefined_threat_feed_urls list in the script for your specific use case.
 
 4. Check the console output for the processed threat data. 
@@ -55,7 +56,7 @@ Install required packages using:
 
 The script can be configured by modifying the predefined threat feed URLs, output file name, and other parameters directly in the script.
 
-##Contributing
+## Contributing
 If you'd like to contribute to the development of this script, please follow these steps:
 
 Fork the repository.
